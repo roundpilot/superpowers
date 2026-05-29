@@ -1,4 +1,4 @@
-# Superpowers for Antigravity 2.0
+# Superpowers for Antigravity 2.0, Antigravity IDE and Antigravity CLI
 
 > \*\*This is a fork of \[obra/superpowers](https://github.com/obra/superpowers) ported to \[Google Antigravity 2.0](https://antigravity.google).\*\*
 >
@@ -20,7 +20,7 @@ Superpowers is a complete software development methodology for your coding agent
 
 ## Quickstart
 
-Give your agent Superpowers: [Antigravity 2.0](#antigravity-20), [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).
+Give your agent Superpowers: [Antigravity 2.0](#antigravity-20), [Antigravity IDE](#antigravity-ide), [Antigravity CLI](#antigravity-cli), [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).
 
 ## How it works
 
@@ -50,7 +50,7 @@ Thanks!
 
 Installation differs by harness. If you use more than one, install Superpowers separately for each one.
 
-### Antigravity 2.0
+### Antigravity 2.0 (IDE/CLI)
 
 This is the primary target for this fork. Choose your platform below.
 
@@ -120,14 +120,14 @@ If you run the **Windows Antigravity IDE** but your workspace is in **WSL**, the
 
   #### Activation
 
-  Once installed, Superpowers skills are available via the **`/using-superpowers`** slash command. Type `/using-superpowers` at the start of a session to activate the skill system. *(Note: If you are using the Antigravity IDE or Antigravity 2.0, restart the application or open a new chat session after installing to ensure the plugin is scanned and loaded).* The agent will load the bootstrap and tool mapping, then brainstorming, TDD, subagent-driven-development, and all other skills will trigger automatically for the rest of the session.
+  Once installed, Superpowers skills are available via the **`/using-superpowers`** slash command in the Antigravity IDE. For the Antigravity CLI, the command is **`/superpowers:using-superpowers`**. Type the appropriate command at the start of a session to activate the skill system. *(Note: If you are using the Antigravity IDE or Antigravity 2.0, restart the application or open a new chat session after installing to ensure the plugin is scanned and loaded).* The agent will load the bootstrap and tool mapping, then brainstorming, TDD, subagent-driven-development, and all other skills will trigger automatically for the rest of the session.
 
 
 
   #### Verify Installation
 
 1. Start a new Antigravity session
-2. Type `/using-superpowers`
+2. Type `/using-superpowers` (or `/superpowers:using-superpowers` if using the Antigravity CLI)
 3. Say "Let's make a react todo list"
 4. The brainstorming skill should trigger automatically
 
