@@ -120,7 +120,7 @@ If you run the **Windows Antigravity IDE** but your workspace is in **WSL**, the
 
   #### Activation
 
-  Once installed, Superpowers skills are available via the **`/using-superpowers`** slash command in the Antigravity IDE. For the Antigravity CLI, the command is **`/superpowers:using-superpowers`**. Type the appropriate command at the start of a session to activate the skill system. *(Note: If you are using the Antigravity IDE or Antigravity 2.0, restart the application or open a new chat session after installing to ensure the plugin is scanned and loaded).* The agent will load the bootstrap and tool mapping, then brainstorming, TDD, subagent-driven-development, and all other skills will trigger automatically for the rest of the session.
+  Once installed, Superpowers skills are available via the **`/using-superpowers`** slash command in Antigravity 2.0 and Antigravity IDE. For the Antigravity CLI, the command is **`/superpowers:using-superpowers`**. Type the appropriate command at the start of a session to activate the skill system. *(Note: If you have Antigravity open during install, restart the application to ensure the plugin is scanned and loaded).* The agent will load the bootstrap and tool mapping, then brainstorming, TDD, subagent-driven-development, and all other skills will trigger automatically for the rest of the session.
 
 
 
