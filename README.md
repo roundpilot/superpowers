@@ -59,7 +59,7 @@ This is the primary target for this fork. Choose your platform below.
 * **Global plugin** (available in all projects):
 
 ```bash
-  git clone https://github.com/roundpilot/superpowers \~/.gemini/config/plugins/superpowers
+  git clone https://github.com/roundpilot/superpowers ~/.gemini/config/plugins/superpowers
   ```
 
 * **Workspace plugin** (project-level only):
@@ -71,7 +71,7 @@ This is the primary target for this fork. Choose your platform below.
 * **Update later:**
 
 ```bash
-  cd \~/.gemini/config/plugins/superpowers \&\& git pull
+  cd ~/.gemini/config/plugins/superpowers \&\& git pull
   ```
 
 #### Windows (PowerShell)
