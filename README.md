@@ -2,7 +2,7 @@
 
 > \*\*This is a fork of \[obra/superpowers](https://github.com/obra/superpowers) ported to \[Google Antigravity 2.0](https://antigravity.google).\*\*
 >
-> All upstream skills, workflows, and prompt templates are preserved. This fork adds native Antigravity 2.0 support: a `plugin.json` manifest, a comprehensive tool mapping reference (`antigravity-tools.md`), workspace isolation via `invoke\_subagent` with `Workspace: "branch"`, and a full test suite.
+> All upstream skills, workflows, and prompt templates are preserved. This fork adds native Antigravity 2.0 support: a `plugin.json` manifest, a comprehensive tool mapping reference (`antigravity-tools.md`), workspace isolation via `invoke_subagent` with `Workspace: "branch"`, and a full test suite.
 
 Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
 
@@ -12,7 +12,7 @@ Superpowers is a complete software development methodology for your coding agent
 |-|-|
 |**Plugin manifest**|Added `plugin.json` for Antigravity 2.0 plugin discovery|
 |**Tool mapping**|New `antigravity-tools.md` maps all 20 Antigravity tools from the generic Claude Code format used in skills|
-|**Subagent dispatch**|Documents `invoke\_subagent` (baseline) and `define\_subagent` (optimization for multi-task plans)|
+|**Subagent dispatch**|Documents `invoke_subagent` (baseline) and `define_subagent` (optimization for multi-task plans)|
 |**Workspace isolation**|`using-git-worktrees` recognizes `Workspace: "branch"` as a native worktree tool|
 |**Bootstrap**|`using-superpowers` SKILL.md and `GEMINI.md` updated with Antigravity 2.0 entries|
 |**Test suite**|Full `tests/antigravity/` directory with plugin discovery, skill triggering, subagent dispatch, and tool mapping validation tests|
